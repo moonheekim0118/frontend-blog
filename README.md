@@ -1,5 +1,4 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4b1962ce-6206-4d8f-9516-63be92294198/deploy-status)](https://app.netlify.com/sites/mooneedev/deploys)
-🐣 프론트엔드 공부 블로그
 
 ## Link
 
