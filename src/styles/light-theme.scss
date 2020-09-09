@@ -9,7 +9,7 @@ body.light {
 
   .bio {
     .author-name-content {
-      background-color: $light-category-border-color;
+      background-color: $light-author-tag-color;
     }
     .author-introduction {
       color: $middle-gray;
@@ -68,5 +68,8 @@ body.light {
       background-color: $navigator-background-color;
       color: $navigator-text-color;
     }
+  }
+  h1 {
+    color: #00802b;
   }
 }

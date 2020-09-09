@@ -23,7 +23,7 @@ export const Bio = () => (
                 }}
               />
               <div className="author-name">
-                <span className="author-name-prefix">by</span>
+                <span className="author-name-prefix">This is</span>
                 <Link to={'/about'} className="author-name-content">
                   <span>@{author}</span>
                 </Link>
