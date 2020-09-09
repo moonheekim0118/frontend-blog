@@ -7,6 +7,7 @@ import { Head } from '../components/head'
 import { PostTitle } from '../components/post-title'
 import { PostDate } from '../components/post-date'
 import { PostContainer } from '../components/post-container'
+import { SocialShare } from '../components/social-share'
 import { Bio } from '../components/bio'
 import { PostNavigator } from '../components/post-navigator'
 import { Disqus } from '../components/disqus'
@@ -34,6 +35,7 @@ export default ({ data, pageContext, location }) => {
       <PostTitle title={postTitle} />
       <PostDate date={date} />
       <PostContainer html={post.html} />
+      <SocialShare title={title} author={author} />
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
