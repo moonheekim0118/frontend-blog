@@ -1,0 +1,30 @@
+.about {
+  .title {
+    border-left: 20px solid salmon;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 1.5rem;
+    font-family: inherit;
+  }
+  .skill {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+
+    border-radius: 5px;
+    padding: 5px 3px;
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-between;
+
+    .contactTitle {
+      font-weight: bold;
+    }
+  }
+}
