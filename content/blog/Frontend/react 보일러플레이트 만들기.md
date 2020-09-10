@@ -1,31 +1,16 @@
-\---
-
+---
 title: CRA 없이 리액트 bolierplate 만들기
 
 date: 2020-09-10 22:40:50
 
-category: Frontend
+category: frontend
 
 draft: false
-
-\---
-
-## Category
-
-1. [포스팅의 목적 - Goal](#goal)
-2. [왜 CRA를 납두고? - Create React App은 편리하다, 하지만..](#intro)
-3. [초기 환경 세팅](#first)
-4. [Babel 세팅](#babel)
-5. [Webpack 세팅](#webpack)
-6. [ESLint 세팅](#eslint)
-7. [최종 파일 구조](#final)
-8. [리퍼런스](#refer)
+---
 
 <br/>
 
-<br/>
-
-## Goal <a name="goal"/>
+## Goal
 
 - Webpack의 기능과 사용법을 안다.
 - Babel의 기능과 사용법을 안다.
@@ -34,19 +19,19 @@ draft: false
 
 <br/>
 
-## Create React App은 편리하다,하지만.. <a name="intro"/>
+## Create React App은 편리하다,하지만..
 
 ​ cra로 리액트 프로젝트를 시작하는 것은 정말 편하다. 리액트가 알아서 복잡한 바벨과 웹팩 환경을 세팅해주므로 개발자는 리액트 코드만 작성하면 알아서 자동 빌드해주고 서버까지 띄워주기 때문이다. <br/>
 
 ​ 하지만 eject를 해서 웹팩 설정을 수정해야하는 순간 cra가 얼마나 많은 것들을 감추고 있었는지 깨닫게 되고, 내가 '다 차려진 밥상 위에 숟가락만 얹히고' 있었다는 것을 깨닫게 된다. <br/>
 
-​ 따라서 이 포스팅을 통해서 직접 리액트 프로젝트 세팅을 해봄으로써 바벨과 웹팩, 그리고 esLint의 사용법을 간단하게 정리하여 리액트에 대한 이해를 더 넓혀보고자 한다. <br/>
+​ 따라서 이 포스팅을 통해서 직접 리액트 프로젝트 세팅을 해봄으로써 바벨과 웹팩, 그리고 ESLint의 사용법을 간단하게 정리하여 리액트에 대한 이해를 더 넓혀보고자 한다. <br/>
 
 <br/>
 
 <br/>
 
-## 초기 환경 세팅 <a name="first"/>
+## 초기 환경 세팅
 
 1. 먼저 npm init을 이용하여 package.json 파일을 생성한다.
    - package.json 파일은 현재 Node 프로젝트에 대한 정보를 담고 있다.
@@ -60,7 +45,6 @@ npm init
 2. 리액트를 사용하기 위해 react와 react-dom 모듈과, react-hot-loader를 설치해준다.
 
    - hot loader는 코드에 변경사항이 생겼을 때, 새로고침 하지 않고도 변경된 부분만 교체해주는 라이브러리이다.
-
    - hot loader는 배포시에는 사용되지 않으므로 개발용 (-D) 으로 설치해준다.
    - hot loader 는 웹팩 설정시에도 사용된다.
 
@@ -112,7 +96,7 @@ npm i -D react-hot-loader
 
 <br/>
 
-5. src / index.js 파일을 아래와 같이 작성해주어 App 컴포넌트를 index.html의 id == root인 DOM에다 렌더링 해준다.
+5. src / index.js 파일을 아래와 같이 작성해주어 App 컴포넌트를 index.html의 id == root인 DOM에다 붙여준다.
 
 ```jsx
 import React from 'react'
@@ -148,7 +132,7 @@ export default hot(module)(App)
 
 <br/>
 
-## Babel 세팅 <a name="babel"/>
+## Babel 세팅
 
 - 바벨은 브라우저가 읽지 못하는 최신 자바스크립트 문법 및 JSX 코드를 ES5 이하의 자바스크립트 코드로 변환시켜주는 컴파일러이다.
 
@@ -176,11 +160,11 @@ npm i -D @babel/core @babel/preset-env @babel/preset-react
 
 ###
 
-## Webpack 세팅 <a name="webpack"/>
+## Webpack 세팅
 
 자 이렇게 바벨까지 다 세팅해주었다면 웹팩을 설치 및 설정하여 js 코드를 빌드 해주어야 한다. <br/>
 
-- 웹팩은 여러개의 js 파일을 하나의 js 파일로 묶어주는 모듈 번들러이다.
+- 웹팩은 여러개의 js 파일을 하나의 js 파일로 묶어주는 `모듈 번들러`이다.
 - 리액트는 첫 로딩시 , 번들된 js 파일이 연결된 html 파일을 로드하므로 웹팩이 필요하다.
 
 <br/>
@@ -254,38 +238,38 @@ module.exports = {
 }
 ```
 
-- mode
+- **mode**
   - 배포시에는 production 으로 변경해줘야 한다.
   - mode에 따라 번들링의 결과물이 달라진다.
-- resolve
+- **resolve**
   - 웹팩이 알아서 경로 / 확장자명을 처리할 수 있게 해준다.
   - 따라서 모듈 import할 때 확장자명을 생략 가능 (css 제외)
-- entry
+- **entry**
   - 웹팩이 읽어들일 파일의 경로
-- module
+- **module**
   - 프로젝트 내의 여러 타입의 모듈을 정의 / 처리 해주기 위한 규칙(rules)를 설정하는 옵션
-- rules 에서 test와 exclude 옵션
+- **rules 에서 test와 exclude 옵션**
   - exclude 옵션 바깥에 존재하는 모든 (test에 정의된) 확장자명의 문법을 정의된 로더를 사용하여 변환하겠다는 설정
 - 로더가 두개 이상일 경우 use 이용하여 두 로더를 묶어준다.
-- output
+- **output**
   - 번들된 파일이 저장될 경로와 파일명을 정의해준다.
-- output의 publicPath
+- **output의 publicPath**
   - 번들된 파일이 저장될 경로 정의
   - webpack-dev-server가 번들된 파일을 가져올 경로 정의
-- devServer
+- **devServer**
   - webpack-dev-server에 대한 설정 - 포트번호/ 경로
-- contentBase
+- **contentBase**
   - public/ 에 있는 모든 파일을 서버에 띄워준다
-- devServer의 publicPath
+- **devServer의 publicPath**
   - 서버에게 번들된 파일이 어디있는지 알려준다.
-- 핫 로더 적용
+- **핫 로더 적용**
   - devServer에서 hotOnly:true 설정과 plugins: [new webpack.HotModuleReplacementPlugin()] 를 이용해 핫 모듈 플러그인의 인스턴스를 생성해줌으로써 핫 로더를 적용해준다.
 
 <br/>
 
 <br/>
 
-## ESLint 세팅 <a name="eslint"/>
+## ESLint 세팅
 
 - 코드 Linting이란 특정 스타일 규칙을 준수하지 않는 소스코드를 찾는데 사용되는 방식이고, Linter는 이러한 Linting을 수행하는 도구이다.
 - 자바스크립트는 컴파일 과정이 없기때문에, Linter가 내장되어 있지 않다. 따라서 이러한 자바스크립트를 실행하지 않고도 구문 오류등을 찾아내주는 것이 ESLint이다.
@@ -304,7 +288,7 @@ npm i -D eslint eslint-plugin-react
 
    - 일단 필수로 설정해주어야 할 것은 plugin:react/recommended와 sourceType: module이다. 이를 설정하지 않으면 import 문법과 const 문법을 에러 처리한다.
 
-   - 다른 여러 설정은 앱 확장과 더불어 [유저가이드](https://eslint.org/docs/user-guide/configuring ) 를 따라서 설정해주면 된다.
+   - 다른 여러 설정은 앱 확장과 더불어 [유저가이드](https://eslint.org/docs/user-guide/configuring) 를 따라서 설정해주면 된다.
 
 ```javascript
 {
@@ -333,7 +317,7 @@ npm i -D eslint eslint-plugin-react
 
 <br/>
 
-## 최종 파일 구조 <a name="final"/>
+## 최종 파일 구조
 
 ```
 .
@@ -355,13 +339,13 @@ npm i -D eslint eslint-plugin-react
 
 이렇게 웹팩과 바벨 그리고 ESLint를 사용하여 나만의 리액트 bolierpalte를 만들어보았다. 만들면서 든 생각은 웹팩 설정이 참 까다롭긴해도 , 이렇게 한번 알아두면 나중에 CRA에서 eject로 수정할 때에도, 혹은 커스텀하여 리액트 프로젝트 세팅을 할 때에도 편하다는 것이다.
 
-## Reference <a name="refer"/>
+## Reference
 
 - [Creating a React App...From Scratch By Jedai Saboteur](https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658)
 
-- [Webpack official docs](https://webpack.js.org/)
+- [Webpack official docs](#https://webpack.js.org/)
 
-- [Babel official docs](https://babeljs.io/docs/en/)
+- [Babel official docs](#https://babeljs.io/docs/en/)
 
 - [ESLint UserGuide](https://eslint.org/docs/user-guide/configuring)
 
