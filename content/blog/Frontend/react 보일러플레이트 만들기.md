@@ -8,13 +8,15 @@ category: frontend
 draft: false
 ---
 
+[깃허브 레포지토리 바로가기](https://github.com/moonheekim0118/react-bolierplate)
+
 <br/>
 
 ## Goal
 
 - Webpack의 기능과 사용법을 안다.
 - Babel의 기능과 사용법을 안다.
-- EsLint의 기능과 사용법을 안다.
+- ESLint의 기능과 사용법을 안다.
 - Create React App 없이 나만의 리액트 bolierplate를 만들어본다.
 
 <br/>
@@ -25,7 +27,7 @@ draft: false
 
 ​ 하지만 eject를 해서 웹팩 설정을 수정해야하는 순간 cra가 얼마나 많은 것들을 감추고 있었는지 깨닫게 되고, 내가 '다 차려진 밥상 위에 숟가락만 얹히고' 있었다는 것을 깨닫게 된다. <br/>
 
-​ 따라서 이 포스팅을 통해서 직접 리액트 프로젝트 세팅을 해봄으로써 바벨과 웹팩, 그리고 ESLint의 사용법을 간단하게 정리하여 리액트에 대한 이해를 더 넓혀보고자 한다. <br/>
+​ 따라서 이 포스팅을 통해서 직접 리액트 프로젝트 세팅을 해봄으로써 바벨과 웹팩, 그리고 덤으로(?) ESLint의 사용법을 간단하게 정리하여 리액트에 대한 이해를 더 넓혀보고자 한다. <br/>
 
 <br/>
 
