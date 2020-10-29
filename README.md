@@ -7,6 +7,5 @@
 
 ## What I write
 
-- 일주일에 한번씩 그 주 공부한 것들을 복습 및 정리
 - [TIL](https://github.com/moonheekim0118/TIL-) 레포지토리에 적은 메모들을 정리
 - [이전 블로그](https://moonheekim-code.tistory.com/) 내용 중 중요한 것들 이전
