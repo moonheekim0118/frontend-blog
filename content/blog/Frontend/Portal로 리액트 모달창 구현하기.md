@@ -49,6 +49,7 @@ draft: false
 간단하게 아래와 같은 모달창을 띄워보도록 하겠습니다. 스타일링은 styled-components로 구현합니다.
 
 <br/>
+
 ![](./images/Portal_modal_example.png)
 
 <br/>
