@@ -1,21 +1,119 @@
 ---
 title: 'about'
-date: '2020-09-09 12:10:00'
+date: '2021-01-08 20:10:00'
 lang: 'en'
 ---
 
-# Moonhee Kim
+# 김문희
 
-<p class="title">What I can do</p>
-<span class="skill">Vanilla JS</span> <span class="skill">HTML/CSS</span> <span class="skill">React</span> <span class="skill">Node JS</span> <span  class="skill">Express</span>
-<br></br>
-<br></br>
-<p class="title">contact</p>
-<div class="contact">
-    <p class="contactTitle">Github</p>
-    <a href="https://github.com/moonheekim0118">https://github.com/moonheekim0118</a>
-</div>
-<div class="contact">
-    <p  class="contactTitle">Email</p>
-    <p>moonhee118@gmail.com</p>
-</div>
+안녕하세요, 늘 **성장**하고자 하는 **프론트엔드 개발자** 김문희 입니다. <br/>
+
+## 저는 이런 개발자 입니다.
+
+#### 1. 끊임없이 좋은 코드를 고민합니다.
+
+브라우저 성능, 렌더링 최적화, 컴포넌트 재사용성을 늘 고민합니다.
+
+#### 2. 밑바닥부터 올라오는 것을 즐깁니다.
+
+리액트를 주로 사용하지만 바닐라 자바스크립트를 이용해서 프로젝트를 설계하는 것을 매우 즐깁니다. 순수 DOM API를 통해 개발함으로써 자바스크립트 동작 원리를 깊게 이해 하는 것을 좋아합니다. 이에 따라 자연히 웹팩(webpack) 바벨(babel) 설정도 혼자서 꾸준히 해오고 있습니다.
+
+#### 3. 무엇이든 동작 원리를 파헤쳐야 직성이 풀립니다.
+
+프로그래밍에 처음 발을 내딛게 된 계기도 알고리즘이라는 과목 때문이었습니다. 따라서 사용하는 프레임워크 / 라이브러리가 어떻게 동작하는지 알아내는 것을 매우 중요하게 여깁니다.
+
+#### 4. 코드의 안정성을 위해 노력합니다.
+
+가급적 프로젝트에 유닛 테스팅을 도입하려고 노력함으로써 코드의 안정성을 보장하고자 합니다. 또한 코드 안정성을 위해 타입스크립트를 주로 사용합니다.
+
+#### 5. 사람들과 의사소통하는 것을 좋아합니다.
+
+대학생 시절부터 꾸준히 학과 내에서 독서 및 영화 토론 소모임을 주최 및 진행하였습니다. 다양한 사람들과 어울려서 이야기하고, 이야기로부터 여러 의견 및 관점들을 수용하는 것을 좋아합니다. 이러한 경험들이 저를 더욱 더 탄탄하고 유연한 사람으로 만든다고 생각합니다. 현재도 꾸준히 친구들과 함께 영화 토론 모임을 운영하며 스스로의 관점을 넓혀가고 있는 중입니다.
+
+#### 6. 늘 배우려는 자세를 가지고 있습니다.
+
+늘 주어진 결과가 최선이 아니라고 생각하고 더 좋은 방향을 탐색하고자 노력합니다.
+
+<br/>
+
+# Skills
+
+### Language
+
+---
+
+- HTML/CSS
+- JavaScript ES6
+- TypeScript
+- C / C++
+- Java / Python
+
+<br/>
+
+### Library / Framwork
+
+---
+
+- React
+- Redux
+- Next.js
+- Styled-Components
+- CSS module
+- SCSS
+- Jest / Enzyme
+- webpack
+- babel
+
+<br/>
+
+### backend skill
+
+---
+
+- Express
+- MySQL - sequelize
+- MongoDB - mongoose
+- passport
+- AWS 배포
+
+<br/>
+
+# Projects
+
+### 영화 리뷰 플랫폼 - 플래쉬백
+
+|                 |                                                                                                                                                              |
+| --------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|      **period** | 20.11 ~ 20.12 (2주)                                                                                                                                          |
+|    **position** | Frontend Developer / Backend Developer                                                                                                                       |
+| **description** | 프론트엔드는 React와 Next.js로 백엔드는 express로 구현한 영화 리뷰 플랫폼 입니다. 타입스크립트와 유닛테스트를 도입하여 더 탄탄한 설계를 하고자 노력했습니다. |
+
+<br/>
+
+### 트위터 클론 프로젝트
+
+|                 |                                                                                                                               |
+| --------------: | ----------------------------------------------------------------------------------------------------------------------------- |
+|      **period** | 20.09 ~ 20.10 (약 한달)                                                                                                       |
+|    **position** | Frontend Developer / Backend Developer                                                                                        |
+| **description** | 프론트엔드는 React와 Next.js로 백엔드는 express로 구현한 트위터 클론 입니다. 기능 구현에 집중하기 위해 클론을 선택하였습니다. |
+
+<br/>
+
+# Foreign language
+
+### 영어
+
+중급회화 가능 / YBM 토익 925점
+
+### 일본어
+
+초급회화 가능
+
+<br/>
+
+# Education
+
+### 동국대학교 사회학과
+
+2018.03 ~ 2020.08 졸업
