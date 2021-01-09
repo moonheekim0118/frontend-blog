@@ -48,6 +48,10 @@ lang: 'en'
 
 ### [영화 리뷰 플랫폼 - 플래쉬백](https://github.com/moonheekim0118/Flashback_movieReview)
 
+평소에 영화를 즐겨보는데, `영화 리뷰를 간단하지만 구체적으로 작성할 방법은 없을까?` 하는 생각에서 시작한 프로젝트 입니다. <br/>
+네이버 검색 API에서 가져온 영화 데이터를 기반으로 영화 리뷰를 작성하는 플랫폼을 만들었습니다. <br/>
+두번째로 진행한 리액트-서버사이드 렌더링 프로젝트였기 때문에 탄탄하고 재사용성이 높은 컴포넌트 설계를 위해 많이 고민했습니다.
+
 |                 |                                                                                                                                                              |
 | --------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 |      **period** | 20.11 ~ 20.12 (2주)                                                                                                                                          |
@@ -60,13 +64,15 @@ lang: 'en'
 
 ### [트위터 클론 프로젝트](https://github.com/moonheekim0118/twitter-clone)
 
-|                 |                                                                                                                               |
-| --------------: | ----------------------------------------------------------------------------------------------------------------------------- |
-|      **period** | 20.09 ~ 20.10 (약 한달)                                                                                                       |
-|    **position** | Frontend Developer / Backend Developer                                                                                        |
-| **description** | 프론트엔드는 React와 Next.js로 백엔드는 express로 구현한 트위터 클론 입니다. 기능 구현에 집중하기 위해 클론을 선택하였습니다. |
-|    **FE skill** | React , Next.js , Styled-Components , Webpack , Babel                                                                         |
-|    **BE skill** | Express, MySQL, Sequelize, Passport                                                                                           |
+기능 개발에 집중하기 위해 트위터를 클론하였습니다. 개발 과정에서 컴포넌트 설계부터 배포까지 풀스택 개발 전반을 배울 수 있었습니다.
+
+|                 |                                                                              |
+| --------------: | ---------------------------------------------------------------------------- |
+|      **period** | 20.09 ~ 20.10 (약 한달)                                                      |
+|    **position** | Frontend Developer / Backend Developer                                       |
+| **description** | 프론트엔드는 React와 Next.js로 백엔드는 express로 구현한 트위터 클론 입니다. |
+|    **FE skill** | React , Next.js , Styled-Components , Webpack , Babel                        |
+|    **BE skill** | Express, MySQL, Sequelize, Passport                                          |
 
 <br/>
 
