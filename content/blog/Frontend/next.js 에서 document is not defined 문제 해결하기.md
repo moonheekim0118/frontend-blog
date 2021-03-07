@@ -3,7 +3,7 @@ title: Next.js 에서 document is not defined 문제 해결하기
 
 date: 2021-02-02 01:00:50
 
-category: Frontend
+category: frontend
 
 draft: false
 ---

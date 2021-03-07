@@ -3,7 +3,7 @@ title: Algolia와 cloud functions를 사용하여 firestore 문자열 검색 쿼
 
 date: 2021-03-07 14:30:50
 
-category: Frontend
+category: frontend
 
 draft: false
 ---

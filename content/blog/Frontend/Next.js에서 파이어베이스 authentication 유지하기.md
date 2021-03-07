@@ -3,7 +3,7 @@ title: Next.js에서 파이어베이스 authentication 유지하기
 
 date: 2021-02-19 01:00:50
 
-category: Frontend
+category: frontend
 
 draft: false
 ---

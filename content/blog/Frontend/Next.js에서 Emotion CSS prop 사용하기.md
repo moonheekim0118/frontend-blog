@@ -3,7 +3,7 @@ title: Emotion CSS prop 사용하기
 
 date: 2021-03-07 15:50:50
 
-category: Frontend
+category: frontend
 
 draft: false
 ---
