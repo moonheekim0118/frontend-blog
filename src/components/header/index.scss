@@ -1,13 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Permanent+Marker&family=Rock+Salt&display=swap');
+
 .home-header {
   margin-top: 0;
   border-bottom: none;
   font-weight: 900;
   font-size: 48px;
   letter-spacing: -2px;
+  font-family: 'Rock Salt', cursive;
+  animation: Color 4s linear infinite;
+  -webkit-animation: Color 4s ease-in-out infinite;
 }
 
 .link {
   box-shadow: none;
   text-decoration: none;
   color: inherit;
+}
+
+@keyframes Color {
+  0% {
+    color: #cc9eff;
+  }
+  40% {
+    color: #cd99fc;
+  }
+
+  60% {
+    color: #dc61d8;
+  }
+
+  70% {
+    color: #ec27b3;
+  }
+
+  80% {
+    color: #dc61d8;
+  }
+
+  100% {
+    color: #cc9eff;
+  }
+}
+
+@-moz-keyframes Color {
+  0% {
+    color: #cc9eff;
+  }
+  40% {
+    color: #cd99fc;
+  }
+
+  60% {
+    color: #dc61d8;
+  }
+
+  70% {
+    color: #ec27b3;
+  }
+
+  80% {
+    color: #dc61d8;
+  }
+
+  100% {
+    color: #cc9eff;
+  }
+}
+
+@-webkit-keyframes Color {
+  0% {
+    color: #cc9eff;
+  }
+  40% {
+    color: #cd99fc;
+  }
+
+  60% {
+    color: #dc61d8;
+  }
+
+  70% {
+    color: #ec27b3;
+  }
+
+  80% {
+    color: #dc61d8;
+  }
+
+  100% {
+    color: #cc9eff;
+  }
 }
